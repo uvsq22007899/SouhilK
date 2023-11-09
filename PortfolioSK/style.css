@@ -1,0 +1,251 @@
+body {
+    background-image: url(/ratatouilleWeb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px;) {
+body{
+  flex-direction: columns;
+  align-items: center;
+}
+}
+  
+
+.text-center{
+  height: 150vh;
+  width: 70vh;
+  display: flex;
+ /*  align-items: center;
+  justify-content: center; */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  ;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: none;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  right: 20px;;
+}
+
+.navbar ul li {
+  position: relative;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+ 
+  /* Scroll Snap */
+  scroll-snap-align: center;
+}
+
+
+/* Section Images */
+section#home {
+  background-color: #191919;
+}
+
+section#about {
+  background: url(fin_Plan\ de\ travail\ 1.jpg) no-repeat center center/cover;;
+}
+
+section#service {
+  background: url(spacee.mp4) no-repeat center center/cover;;
+}
+
+.navbar ul li::after {
+  content: '';
+  width: 0%;
+  height: 5%;
+  background-color: rgb(255, 166, 0);
+  position: absolute;
+  bottom:29%; left: 50%;
+  border-radius: 10px;
+  transition: all 500ms ease;
+}
+
+.navbar ul li:hover::after {
+  left: 0%;
+  text-decoration: none;
+  width: 100%;
+  top: 40px;
+}
+
+#myVideo {
+  width: 0%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+
+--------------------------------------------------------------->
+
+#souhil{
+   color: rgb(163, 255, 161);
+}
+
+
+.custom-text-prenom {
+  position: absolute;
+  font-size: 9rem;
+  left: 30px;
+  top: 20px; 
+}
+
+.custom-text-nom {
+  color: rgb(255, 4, 0);
+  /* position: absolute; */
+  font-size: 9rem;
+  right: 30px; 
+  bottom: -25px; 
+  text-align: right; 
+}
+
+
+section#home h1 {
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-size: 5rem;
+  font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Krona One', sans-serif;
+}
+
+section#home span{
+  color:rgba(255, 213, 0, 0);
+  border: 1rem solid;
+  -webkit-text-stroke: 2px rgb(255, 213, 0);
+  margin: -10px;
+}
+
+.custom-text-prenom{
+  top: -400px;
+  left: -500px;
+}
+
+.custom-text-nom{
+  top: -85px;
+  right: -500px;
+}
+
+
+section#home img{
+  height: 75%;
+  top: 150px;
+  left: 10px;
+  position: relative;
+}
+
+
+section#about #SKmock{
+  height: 40%;
+  border-radius: 8%;
+  position:relative ;
+  left: -530px;
+  top: 515px;
+}
+
+section#about #SKGold{
+  height: 70%;
+  border-radius: 8%;
+  position:relative ;
+  left: -50px;
+  top: 270px;
+}
+
+section#about #SKSign{
+  height: 40%;
+  border-radius: 8%;
+  position:relative ;
+  left: -530px;
+  top: 30px;
+}
+
+.loremm{
+  font-size: 1em;
+  max-width: 500px;
+  margin: 0 auto;
+  z-index: 1000;
+  color: #191919;
+  text-align: left;
+  text-align: left;
+  top: -510px;
+  left: 50 0px;
+  position: relative;
+  left: 32%;
+  margin: 0;
+}
+
+
+#SKRose{
+  width: 10%;
+  left: 660px;
+  top: 255px;
+  position: relative;
+}
+
+.aboutt{
+  font-size: 20em;
+  color: aqua;
+  z-index: 999;
+  position: relative;
+  top: 50px;
+}

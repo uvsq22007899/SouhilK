@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioSK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&family=Krona+One&family=Montserrat:wght@700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+<script>
+  function changerCouleurFond() {
+    var couleur = "#"+((1<<24)*Math.random()|0).toString(16); 
+    document.body.style.backgroundColor = couleur;
+  }
+</script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">INITIAL</a></li>
+                <li><a href="#service">ABOUT ME</a></li>   
+              </ul>
+            </nav>
+            <section id="home">
+              <button class="color-change-button" onclick="changerCouleurFond()">Changer la couleur du fond</button>
+              <img src="Composition 1_2.gif" alt="">
+              <h1 class="custom-text-prenom"><span>S</span>OUHIL</h1>
+              <h1 class="custom-text-nom"><span>K</span>EHLI</h1>
+              <button id="color-change-button">Changer la couleur du bouton</button>
+            </section>
+        <section id="about">
+            <img src="Mockup SK.jpg" alt="mockup de mon logo" id="SKmock">
+            <img src="SkGold.JPEG" alt="logo gold" id="SKGold">
+            <img src="SKSign.JPEG" alt="signature Mockup du logo" id="SKSign">
+            <div class="loremm">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis velit inventore ipsum
+                 dignissimos perferendis exercitationem quod iusto sunt alias doloremque, cum pariatur libero
+                 at! Quos distinctio assumenda animi aspernatur natus.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Veritatis velit inventore ipsum dignissimos perferendis exercitationem quod Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis velit inventore ipsum
+                 dignissimos perferendis exercitationem quod iusto sunt alias doloremque, cum pariatur libero
+                 at! Quos distinctio assumenda animi aspernatur natus.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Veritatis velit inventore ipsum dignissimos perferendis exercitationem quod  exercitationem quod iusto sunt alias doloremque, cum pariatur libero
+                 at! Quos distinctio assumenda animi aspernatur natus.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Veritatis velit inventore ipsum dignissimos perferendis exercitationem quod velit inventore ipsum dignissimos perferendis exercitationem quod  exercitationem quod iusto sunt alias doloremque, cum pariatur libero
+                 at! Quos distinctio assumenda animi aspernatur natus.Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Veritatis velit inventore ipsum dignissimos perferendis exercitationem quod   </p>
+            </div>
+        </section>
+        <section id="service">
+            <img src="SKrose_Plan de travail 1.png" alt="logo gold" id="SKRose">
+            <h1 class="Aboutt">About Me</h1>
+      </div> 
+      <video autoplay muted loop id="myVideo">
+        <source src="spacee.mp4" type="video/mp4">
+      </video> 
+    </section>
+</body>
+</html>
